@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    /* font-family: ; */
+    z-index: 100;
+}
+
+
+h1 {
+	font-size: 5rem;
+	color: #DBEDF3;
+    font-family: 'Great Vibes', cursive;
+	text-shadow: 2px 0 #DA0463;
+}
+
+.t {
+	background-image: url("img/tom-1.png");
+}
+
+.mt {
+	background-image: url("img/tom2.png");
+}
+
+.ht {
+	background-image: url("img/tom3.png");
+}
+
+.ft {
+	background-image: url("img/tom4.png");
+}
+
+.sd {
+	background-image: url("img/snare.png");
+}
+
+.c {
+	background-image: url("img/crash.png");
+}
+
+.bd {
+	background-image: url("img/kick.png");
+}
+
+.all {
+	margin: 10% auto;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+.animation {
+	box-shadow: 0 3px 4px 0 #DBEDF3;
+	opacity: 0.5;
+}
+
+.button {
+	outline: none;
+	border: 6px solid #ffbf00;
+	font-size: 1.1em;
+	font-family: 'Fredoka One', cursive;
+	line-height: 2;
+	font-weight: 500;
+	color: #FFC61A;
+	text-shadow: 1.5px 0 #000000;
+	border-radius: 10px;
+	display: inline-block;
+	width: 130px;
+	height: 130px;
+	text-align: center;
+	margin: 10px;
+	background-color: rgb(240, 240, 240);
+}
+
+footer{
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
